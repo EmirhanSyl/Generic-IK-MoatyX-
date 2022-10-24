@@ -26,7 +26,7 @@ namespace Generics.Dynamics
 
         [Header("Terrain Adjustment")]
         public float FootOffset = 0f;
-        public float MaxStepHeight = 0.8f;
+        public float MaxStepHeight = 1f;
 
         //used to smooth out the motion when we cant find ground anymore
         public float EaseOutPos = 10f;
